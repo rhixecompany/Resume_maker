@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Bun: Current File",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bun",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Bun: Run All Tests",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bun",
+      "runtimeArgs": [
+        "test"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

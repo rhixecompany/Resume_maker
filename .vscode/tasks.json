@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "command": "bun run format",
+      "label": "Format",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "command": "bun run typecheck",
+      "label": "Type Check",
+      "type": "shell",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "command": "bun test",
+      "label": "Test",
+      "type": "shell",
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}

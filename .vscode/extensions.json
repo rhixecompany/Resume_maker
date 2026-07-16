@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "oven.bun-vscode",
+    "foxundermoon.shell-format",
+    "usernamehw.errorlens"
+  ],
+  "unwantedRecommendations": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "hookyqr.beautify"
+  ]
+}
