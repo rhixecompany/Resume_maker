@@ -12,6 +12,4 @@ bun install
 bun run typecheck && bun run lint
 ```
 
-_All conventions, workflows, and rules live in `AGENTS.md` at the repo root._
-
-- For new or changed requests, follow the clarification and timestamped artifact protocol in `AGENTS.md`.
+_All conventions, workflows, and rules live in `AGENTS.md` at the repo root.`

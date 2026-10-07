@@ -83,15 +83,15 @@ bun run typecheck && bun run lint && bun run lint:md && bun run lint:spell
 
 ### CLI Options
 
-| Flag              | Short | Description                                           |
-| ----------------- | ----- | ----------------------------------------------------- |
-| `--input <file>`  | `-i`  | Input JSON file with resume data                      |
-| `--output <name>` | `-o`  | Output filename (default: `output_resume`)            |
+| Flag              | Short | Description                                                    |
+| ----------------- | ----- | -------------------------------------------------------------- |
+| `--input <file>`  | `-i`  | Input JSON file with resume data                               |
+| `--output <name>` | `-o`  | Output filename (default: `output_resume`)                     |
 | `--format <type>` | `-f`  | Output format: `markdown`, `pdf`, `both` (default: `markdown`) |
-| `--projectsDir`   | `-p`  | Projects directory to auto-discover portfolio entries |
-| `--skipProjects`  |       | Disable auto-project discovery                        |
-| `--verbose`       | `-v`  | Verbose output                                        |
-| `--help`          | `-h`  | Show help message                                     |
+| `--projectsDir`   | `-p`  | Projects directory to auto-discover portfolio entries          |
+| `--skipProjects`  |       | Disable auto-project discovery                                 |
+| `--verbose`       | `-v`  | Verbose output                                                 |
+| `--help`          | `-h`  | Show help message                                              |
 
 ### Auto-Discovery Behaviour (non-obvious default)
 
@@ -101,11 +101,11 @@ discovered projects into the resume. There is no `../projects` directory in
 this repo — the `--help` text in `index.ts` says `default: ../projects`, but
 the code resolves to `..` at runtime:
 
-| Scenario                                 | Projects scanned                              |
-| ---------------------------------------- | --------------------------------------------- |
+| Scenario                                 | Projects scanned                                       |
+| ---------------------------------------- | ------------------------------------------------------ |
 | `bun index.ts` run in `Resume_maker/`    | `../` — merges sibling repos (~20 found on 2026-10-07) |
-| `bun index.ts -p ../playgrounds/SandBox` | `SandBox` (git worktree, 2,612 dirty entries) |
-| `bun index.ts --skipProjects`            | none — clean resume                           |
+| `bun index.ts -p ../playgrounds/SandBox` | `SandBox` (git worktree, 2,612 dirty entries)          |
+| `bun index.ts --skipProjects`            | none — clean resume                                    |
 
 If you want the built-in `--help` to say `default: ..`, raise `showHelp()` by
 one line. The code is left untouched in this pass.
