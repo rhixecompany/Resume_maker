@@ -1,0 +1,28 @@
+=== SKILLS LIST: ALL ===
+│ pr-dashboard    │ web-development  │ local     │ local     │ enabled         │
+└─────────────────┴──────────────────┴───────────┴───────────┴─────────────────┘
+41 hub-installed, 53 builtin, 1156 local — 1250 enabled, 0 disabled
+
+
+=== SKILLS CHECK: PENDING UPDATES ===
+│ drug-discovery                  │ official  │ up_to_date │
+│ duckduckgo-search               │ official  │ up_to_date │
+│ gitnexus-explorer               │ official  │ up_to_date │
+│ code-wiki                       │ official  │ up_to_date │
+│ cloudflare-temporary-deploy     │ official  │ up_to_date │
+└─────────────────────────────────┴───────────┴────────────┘
+0 update(s) available across 49 checked skill(s)
+
+
+=== PHYSICAL SKILL.md COUNT ===
+1260
+
+=== CLI-VISIBLE HUB/BUILTIN/LOCAL ===
+│ blockchain      │                  │ local     │ local     │ enabled         │
+│ communication   │                  │ local     │ local     │ enabled         │
+│ creative        │                  │ local     │ local     │ enabled         │
+│ data-science    │                  │ local     │ local     │ enabled         │
+│ development     │                  │ local     │ local     │ enabled         │
+
+=== FLAT SYMLINK DIRECTORY COUNT ===
+20
