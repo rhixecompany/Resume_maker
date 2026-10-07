@@ -1,0 +1,38 @@
+--- TIME ---
+date: 2026-10-07 12:00:00 UTC
+
+--- GIT ---
+git status --short --branch
+error: <captured exit 0>
+## clean-development...origin/development [ahead 12, behind 1]
+
+--- HERMES ---
+hermes --version
+hermes config path
+hermes config env-path
+hermes config check
+hermes status
+hermes mcp list
+hermes skills list --source all
+hermes skills check
+hermes skills list-modified --json
+
+values: <redacted; schema 50 valid>
+
+--- OPENCODE / COPILOT --- (redacted)
+opencode --version: v2.0.18
+opencode auth list: exit 9
+opencode models: exit 9
+copilot --no-auto-update --version: GitHub Copilot CLI 1.0.88
+copilot instruction list --json: loads 2 sources (AGENTS.md, .github/copilot-instructions.md)
+
+--- WSL --- (redacted)
+wsl.exe --list --verbose
+.wslconfig + /etc/wsl.conf present
+
+--- SKILL LIBRARY --- (redacted)
+skill files: 1259
+flat dbl proxies: /home/alexa/.agents/skills/{agent-analytics,architect,audit,check,code-review,debug,deploy-to-vercel,develop,document,find-skills,scope,sync,test,vercel-cli-with-tokens,vercel-composition-patterns,vercel-optimize,vercel-react-best-practices,vercel-react-native-skills,vercel-react-view-transitions,web-design-guidelines,writing-guidelines}
+online counts: skills list hubs=42 builtin=53 local=1154 (total 1249 enabled)
+pending hub updates: ast-grep comfyui kanban-video-orchestrator pixel-art excel-author
+user modified bundled: 37
