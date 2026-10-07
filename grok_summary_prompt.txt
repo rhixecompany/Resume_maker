@@ -1,0 +1,443 @@
+# COMPREHENSIVE PROMPT: Job-Ready GitHub Portfolio Builder
+
+## USER PROFILE
+- **Name**: Alexander Iseghohi
+- **GitHub**: rhixecompany
+- **LinkedIn**: https://www.linkedin.com/in/alexander-iseghohi-8a3a51209/
+- **Goal**: Get hired and start earning as a Full-Stack Developer
+
+---
+
+## MISSION
+Transform all GitHub repositories into professional, job-ready portfolio pieces that:
+1. Showcase technical skills (for engineering/technical roles)
+2. Demonstrate business value and impact (for product/manager roles)
+3. Make Alexander stand out to recruiters and hiring managers
+4. Lead to interviews and job offers
+
+---
+
+## REPOSITORY OVERVIEW
+
+### All 7 Repositories:
+
+| Repo | URL | Current Status | Action |
+|------|-----|----------------|--------|
+| **banking** | github.com/rhixecompany/banking | ✅ Excellent (46KB comprehensive) | Keep as-is |
+| **university-libary-jsm** | github.com/rhixecompany/university-libary-jsm | ❌ Basic Next.js template | **UPDATE** |
+| **rhixe_scans** | github.com/rhixecompany/rhixe_scans | ❌ Minimal (63 bytes) | **REWRITE** |
+| **xamehitv** | github.com/rhixecompany/xamehitv | ❌ No description | **CREATE** |
+| **selenium_webdriver** | github.com/rhixecompany/selenium_webdriver | ❌ Basic | **ENHANCE** |
+| **ecom** | github.com/rhixecompany/ecom | ❌ No description | **UPDATE** |
+| **rhixecompany** | github.com/rhixecompany/rhixecompany | ❌ No description | **UPDATE** |
+
+---
+
+## TASK 1: UPDATE GROK_SUMMARY_PROMPT.TXT (THIS FILE)
+
+This file serves as the master prompt for all AI coding agents. Keep it updated with:
+- Current repository status
+- User profile information
+- Implementation progress
+- Action items
+
+---
+
+## TASK 2: UPDATE ALL REPOSITORY READMEs
+
+### README STRUCTURE (Use this template for ALL repos):
+
+```markdown
+<!-- markdownlint-disable MD033 MD036 MD041 MD045 MD059 -->
+<div align="center">
+  <br />
+  <a href="#" target="_blank">
+    <img src="[PROJECT_BANNER_URL]" alt="Project Banner">
+  </a>
+  <br />
+
+  <div>
+    [TECH_BADGES - e.g., Next.js, TypeScript, Python, Django, etc.]
+  </div>
+
+  <h3 align="center">[PROJECT_TAGLINE]</h3>
+
+  <div align="center">
+    [QUICK_DESCRIPTION]
+  </div>
+</div>
+
+## 📋 Table of Contents
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🚀 [Live Demo](#live-demo)
+5. 🤸 [Quick Start](#quick-start)
+6. 📊 [Business Value](#business-value)
+7. 🔧 [Technical Details](#technical-details)
+8. 📚 [Documentation](#documentation)
+9. 🚨 [FAQ / Troubleshooting](#faq)
+10. 🔗 [Links](#links)
+
+## 🤖 Introduction
+[What the project does - 2-3 sentences]
+
+## ⚙️ Tech Stack
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| [Tech] | [Version] | [Use] |
+
+## 🔋 Features
+- [Feature 1]
+- [Feature 2]
+- [Feature 3]
+
+## 🚀 Live Demo
+| Platform | URL | Status |
+|----------|-----|--------|
+| [Vercel/Railway/etc] | [URL] | ✅ Active |
+
+## 🤸 Quick Start
+```bash
+# Clone
+git clone [REPO_URL]
+cd [REPO_NAME]
+
+# Install
+bun install  # or npm install / pip install
+
+# Run
+bun run dev  # or python manage.py runserver
+```
+
+## 📊 Business Value
+- **Target Users**: [Who is this for?]
+- **Problem Solved**: [What problem does it address?]
+- **Key Outcomes**: [What was achieved?]
+- **Impact**: [How does it improve user experience?]
+
+## 🔧 Technical Details
+- **Architecture**: [Brief architecture description]
+- **Patterns Used**: [Key patterns - e.g., DAL, Server Actions, MVC]
+- **Database**: [Database used]
+- **Authentication**: [Auth method]
+- **Testing**: [Testing approach]
+
+## 📚 Documentation
+[Link to any additional docs, deployment guides, etc.]
+
+## 🚨 FAQ / Troubleshooting
+[Common issues and solutions]
+
+## 🔗 Links
+- [Live Demo]
+- [Documentation]
+- [Related Blog/Tutorial]
+
+---
+
+### SPECIFIC INSTRUCTIONS PER REPOSITORY:
+
+#### 1. university-libary-jsm (University Library Management System)
+**Current**: Basic Next.js template README
+**Target**: Professional library management system docs
+
+**Tech Stack to Add**:
+- Next.js 14+ (App Router)
+- TypeScript
+- NextAuth.js (authentication)
+- Drizzle ORM
+- SQLite/PostgreSQL
+- shadcn/ui
+- Zod (validation)
+
+**Features to Highlight**:
+- Book inventory management
+- User borrowing/returns
+- Admin dashboard
+- Search functionality
+- User authentication
+
+**Business Value**:
+- Streamlines library operations
+- Reduces manual work
+- Improves user experience for students/staff
+
+---
+
+#### 2. rhixe_scans (Comic/Manga Reader - Rhixe Scans)
+**Current**: Minimal 63-byte README
+**Target**: Full professional documentation
+
+**Tech Stack to Add**:
+- Next.js
+- TypeScript
+- Python (Django/FastAPI backend)
+- Docker
+- PostgreSQL
+- Jest testing
+
+**Features to Highlight**:
+- Online comic/manga reading
+- Image processing
+- User reading lists
+- Responsive design
+- Fast loading
+
+**Business Value**:
+- Provides free access to reading content
+- Mobile-friendly reading experience
+- Supports independent scanning/translation community
+
+---
+
+#### 3. xamehitv (TV Streaming Application)
+**Current**: No description
+**Target**: Complete project documentation
+
+**Tech Stack to Add**:
+- Frontend: React/Next.js
+- Backend: Node.js/Express
+- Database: MongoDB/PostgreSQL
+- Streaming: HLS/DASH
+
+**Features to Highlight**:
+- Video streaming
+- User profiles
+- Content library
+- Search functionality
+
+**Business Value**:
+- Entertainment platform
+- Content delivery system
+
+---
+
+#### 4. selenium_webdriver (Test Automation Suite)
+**Current**: Basic README
+**Target**: Enhanced with examples and business value
+
+**Tech Stack to Add**:
+- Node.js
+- JavaScript/TypeScript
+- Selenium WebDriver
+- Mocha/Chai (testing framework)
+
+**Features to Highlight**:
+- Browser automation
+- E2E testing
+- Cross-browser testing
+- Test reporting
+
+**Business Value**:
+- Reduces manual testing effort
+- Improves code quality
+- Faster release cycles
+- Bug detection before production
+
+---
+
+#### 5. ecom (E-commerce Platform)
+**Current**: No description
+**Target**: Django e-commerce documentation
+
+**Tech Stack to Add**:
+- Python
+- Django
+- SQLite
+- HTML/CSS/JS
+- Payment integration (Stripe/PayPal)
+
+**Features to Highlight**:
+- Product catalog
+- Shopping cart
+- Checkout process
+- Order management
+- User authentication
+
+**Business Value**:
+- Online store capability
+- Inventory management
+- Order processing automation
+
+---
+
+#### 6. rhixecompany (Personal Portfolio/Website)
+**Current**: No description
+**Target**: Professional personal portfolio README
+
+**Tech Stack to Add**:
+- Python
+- Django
+- Google Cloud (gcloud)
+- SQLite
+
+**Features to Highlight**:
+- Personal/company website
+- Blog capability
+- Contact functionality
+
+**Business Value**:
+- Professional online presence
+- Personal branding
+
+---
+
+## TASK 3: CREATE UNIFIED RESUME & APPLICATION MATERIALS
+
+### Resume Structure:
+```markdown
+# Alexander Iseghohi
+
+**Email**: [your.email@example.com]
+**Phone**: [Your Phone Number]
+**Location**: [Your City / Country] | Open to Remote & Hybrid
+**LinkedIn**: https://www.linkedin.com/in/alexander-iseghohi-8a3a51209/
+**GitHub**: https://github.com/rhixecompany
+
+### Professional Summary
+[Results-driven summary - 2-3 sentences]
+
+### Technical Skills
+- **Core**: [List core technologies]
+- **Tools**: [List tools and libraries]
+- **Domains**: [List domains - fintech, e-commerce, etc.]
+
+### Featured Projects
+
+**Horizon Banking Platform** (banking)
+- [Key achievement 1]
+- [Key achievement 2]
+- [Key achievement 3]
+
+**University Library Management System** (university-libary-jsm)
+- [Key achievement 1]
+- [Key achievement 2]
+
+**E-commerce Platform** (ecom)
+- [Key achievement 1]
+
+**Selenium WebDriver Automation** (selenium_webdriver)
+- [Key achievement 1]
+
+**Rhixe Scans** (rhixe_scans)
+- [Key achievement 1]
+
+**Xamehitv** (xamehitv)
+- [Key achievement 1]
+
+### Education
+[Your Degree] — [University Name] — [Graduation Year]
+```
+
+### Cover Letter Template:
+```markdown
+Subject: Full-Stack Developer Application – [Job Title]
+
+Dear Hiring Manager,
+
+I am excited to apply for the [Job Title] position at [Company Name]. With hands-on experience building modern applications using [relevant tech stack], I am confident in my ability to contribute immediately to your team.
+
+[Reference specific project relevant to the role]
+
+I am particularly interested in [Company Name] because [specific reason]. I am eager to bring my project ownership skills and passion for clean code to your organization.
+
+Thank you for your time and consideration.
+
+Best regards,
+Alexander Iseghohi
+[Your Phone] | [Your Email] | LinkedIn | GitHub
+```
+
+---
+
+## TASK 4: JOB RECOMMENDATIONS
+
+### 5 Valid Jobs to Apply For (Actively Hiring - 2026):
+
+1. **Full Stack Developer (Next.js / TypeScript)**
+   - Search: "Next.js Developer", "TypeScript Full Stack"
+   - Platforms: Indeed, LinkedIn, RemoteRocketship
+
+2. **Frontend / Full-Stack Engineer (React / Next.js)**
+   - Search: "React Developer", "Next.js Engineer"
+   - Platforms: ReactJobs.io, ZipRecruiter
+
+3. **Fintech Software Engineer**
+   - Search: "Fintech Developer", "Banking Software Engineer"
+   - Companies: Chime, Capital One, JPMorgan
+
+4. **QA Automation Engineer (Selenium)**
+   - Search: "Selenium Automation", "SDET"
+   - Platforms: Indeed, LinkedIn (Remote)
+
+5. **Junior / Mid-Level Software Developer**
+   - Search: "Junior Full Stack", "Mid-Level Developer"
+   - Focus: TypeScript, JavaScript, Python
+
+---
+
+## TASK 5: INTERVIEW PREPARATION
+
+### Key Questions to Prepare:
+
+**Project-Based**:
+- Walk me through your Horizon Banking project
+- How did you handle data validation and security?
+- Explain the architecture of your Next.js projects
+
+**Technical**:
+- Server Components vs Client Components in Next.js
+- TypeScript benefits and Zod validation
+- How does Selenium WebDriver work?
+
+**Behavioral**:
+- Tell me about a time you had to learn a new technology quickly
+- Why do you want to work in fintech/web development?
+
+---
+
+## IMPLEMENTATION CHECKLIST
+
+- [x] Update grok_summary_prompt.txt (this file)
+- [ ] Update university-libary-jsm README
+- [ ] Rewrite rhixe_scans README
+- [ ] Create xamehitv README
+- [ ] Enhance selenium_webdriver README
+- [ ] Update ecom README
+- [ ] Update rhixecompany README
+- [x] Create unified resume (Resume Maker tool)
+- [x] Create cover letter templates
+- [ ] Validate all READMEs for consistency
+
+---
+
+## NOTES FOR AI AGENTS
+
+1. **Banking repo is already excellent** - do not modify, use as reference
+2. **All READMEs should follow similar structure** for consistency
+3. **Include both technical AND business value** in each README
+4. **Add deployment links** where available
+5. **Use professional badges** (shields.io)
+6. **Keep READMEs concise but comprehensive** - 500-2000 words ideal
+
+---
+
+## PROGRESS TRACKING
+
+Last Updated: May 27, 2026
+Status: [IN PROGRESS]
+Next Action: Update repo READMEs (university-libary-jsm, rhixe_scans, xamehitv, selenium_webdriver, ecom, rhixecompany)
+
+---
+
+## REPO CLEANUP NOTES
+
+- **Resume Maker repo** — cleaned up May 27, 2026
+  - Removed stale OpenCode boilerplate (docs/, CONTRIBUTING.md, Makefile, .stowrc, .pre-commit-config.yaml)
+  - Generated outputs moved to output/ (12 files)
+  - Source templates remain in application_materials/
+
+---
+
+*This prompt serves as the master guide for building Alexander Iseghohi's job-ready GitHub portfolio.*

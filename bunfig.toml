@@ -1,0 +1,13 @@
+# Resume_maker — Bun configuration
+# CLI document generator (JSON → Markdown + PDF)
+
+[build]
+loader = false
+
+[test]
+coverage = true
+
+[install]
+optional = true
+dev = true
+peer = true

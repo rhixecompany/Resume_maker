@@ -1,0 +1,47 @@
+{
+  "name": "Alexander Iseghohi",
+  "title": "Full-Stack Developer",
+  "contact": {
+    "email": "Alexanderrhixe30@gmail.com",
+    "phone": "08134525659",
+    "linkedin": "linkedin.com/in/alexander-iseghohi-8a3a51209",
+    "github": "github.com/rhixecompany",
+    "website": ""
+  },
+  "summary": "Results-driven Full-Stack Developer with hands-on experience building modern web applications using Next.js, TypeScript, Python, and Django. Specialized in developing fintech solutions, e-commerce platforms, and management systems. Strong focus on writing clean, type-safe, and scalable code while delivering excellent user experiences.",
+  "experience": [
+    {
+      "title": "Full-Stack Developer",
+      "company": "Horizon Banking Platform",
+      "location": "Remote",
+      "startDate": "2024",
+      "isCurrentRole": true,
+      "highlights": [
+        "Developed a modern full-stack fintech banking application using Next.js 14+ and TypeScript",
+        "Implemented secure user flows, forms, and robust data validation with Zod",
+        "Built scalable architecture suitable for production financial environments",
+        "Designed responsive UI with React and Tailwind CSS for cross-device compatibility"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Technology",
+      "graduationYear": "2024",
+      "relevantCoursework": ["Data Structures", "Algorithms", "Web Development"]
+    }
+  ],
+  "skills": [
+    "Next.js (App Router), React",
+    "TypeScript, JavaScript",
+    "Python, Django",
+    "Node.js, Express",
+    "PostgreSQL, SQLite, MongoDB",
+    "Tailwind CSS, shadcn/ui",
+    "Zod, React Hook Form",
+    "Selenium WebDriver, Jest, Playwright",
+    "Docker, Git, GitHub Actions",
+    "RESTful APIs, NextAuth.js, JWT"
+  ]
+}

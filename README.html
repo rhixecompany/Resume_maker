@@ -1,0 +1,152 @@
+<div
+            class="github-markdown-body"
+            data-color-mode="auto"
+            data-light-theme="light"
+            data-dark-theme="dark"
+        >
+            <div class="github-markdown-content"><span id="markdown-mermaid" aria-hidden="true" data-config="{&quot;darkModeTheme&quot;:&quot;default&quot;,&quot;lightModeTheme&quot;:&quot;default&quot;,&quot;maxTextSize&quot;:50000,&quot;clickDrag&quot;:&quot;alt&quot;,&quot;showControls&quot;:&quot;onHoverOrFocus&quot;,&quot;resizable&quot;:true,&quot;maxHeight&quot;:&quot;&quot;}"></span>
+                <span id="markdown-mermaid" aria-hidden="true" data-config="{&quot;darkModeTheme&quot;:&quot;vscode&quot;,&quot;lightModeTheme&quot;:&quot;vscode&quot;,&quot;maxTextSize&quot;:50000,&quot;clickDrag&quot;:&quot;alt&quot;,&quot;showControls&quot;:&quot;onHoverOrFocus&quot;,&quot;resizable&quot;:true,&quot;maxHeight&quot;:&quot;&quot;}"></span>
+				<h1 id="resumemaker--job-documents-generator">Resume_maker — Job Documents Generator</h1>
+<blockquote>
+<p><strong>Stack:</strong> Bun / TypeScript | <strong>Type:</strong> CLI Document Generator | <strong>Status:</strong> Active</p>
+</blockquote>
+<p>A CLI tool that generates job-hunting documents (resume, cover letter, LinkedIn guide, interview prep) from structured JSON input to Markdown and PDF formats.</p>
+<hr>
+<h2 id="technology-stack">Technology Stack</h2>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Technology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Runtime</strong></td>
+<td>Bun (latest), Node.js (fallback)</td>
+</tr>
+<tr>
+<td><strong>Language</strong></td>
+<td>TypeScript ^5 (strict)</td>
+</tr>
+<tr>
+<td><strong>PDF Generation</strong></td>
+<td>markdown-pdf ^11.0.0</td>
+</tr>
+<tr>
+<td><strong>Linting</strong></td>
+<td>ESLint 10.x, Prettier 3.x, Markdownlint, CSpell</td>
+</tr>
+</tbody>
+</table>
+<h2 id="architecture">Architecture</h2>
+<p>The generator follows a <strong>Pipeline Processing Pattern</strong>:</p>
+<pre><code class="language-text">JSON Input File → index.ts (Entry Point)
+                      ↓
+            ┌─────────┼─────────┐
+            ↓         ↓         ↓
+      Resume    Cover Letter  LinkedIn     Interview Prep
+       Gen        Gen          Gen            Gen
+            ↓         ↓         ↓
+            └─────────┼─────────┘
+                      ↓
+               Markdown Output
+                      ↓
+              markdown-pdf (PDF)
+                      ↓
+              output/ directory
+</code></pre>
+<h2 id="project-structure">Project Structure</h2>
+<pre><code class="language-text">Resume_maker/
+├── index.ts                 # Main entry point
+├── sample-input.json        # Sample input data
+├── alexander-input.json     # Author&#x27;s resume data
+├── output/                  # Generated documents
+│   ├── resume.md / .pdf
+│   ├── alexander-resume.md / .pdf
+│   ├── project-walkthrough.md
+│   └── interview-qa.md
+├── scripts/
+│   └── smoke-resume.ts      # Smoke test script
+├── updated_readmes/         # Generated README updates
+├── application_materials/
+└── docs/Project_Architecture/
+</code></pre>
+<h2 id="getting-started">Getting Started</h2>
+<pre><code class="language-bash"><span class="hljs-comment"># Install dependencies</span>
+<span class="hljs-built_in">cd</span> Resume_maker
+bun install
+
+<span class="hljs-comment"># Generate documents from sample input</span>
+bun index.ts --input sample-input.json
+
+<span class="hljs-comment"># Generate with specific options</span>
+bun index.ts -i alexander-input.json -o resume -f both
+
+<span class="hljs-comment"># Run quality checks</span>
+bun run typecheck &amp;&amp; bun run lint
+bun run lint:md       <span class="hljs-comment"># Markdown linting</span>
+bun run lint:spell    <span class="hljs-comment"># Spell checking</span>
+
+<span class="hljs-comment"># Get help</span>
+bun index.ts --<span class="hljs-built_in">help</span>
+</code></pre>
+<h2 id="key-features">Key Features</h2>
+<ul>
+<li><strong>Multi-Document Generation</strong> — Resume, cover letter, LinkedIn guide, interview prep</li>
+<li><strong>Dual Output</strong> — Markdown for editing/sharing, PDF for final delivery</li>
+<li><strong>Structured JSON Input</strong> — Reproducible data-driven document generation</li>
+<li><strong>CLI Options</strong> — <code>--input</code>, <code>--output</code>, <code>--format</code> flags for customization</li>
+<li><strong>Quality Checks</strong> — Linting, formatting, and spell-checking built in</li>
+</ul>
+<h2 id="cli-commands">CLI Commands</h2>
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bun index.ts --input &lt;file.json&gt;</code></td>
+<td>Generate from JSON input</td>
+</tr>
+<tr>
+<td><code>bun index.ts -i &lt;file&gt; -o &lt;dir&gt; -f &lt;both|md|pdf&gt;</code></td>
+<td>Specific output configuration</td>
+</tr>
+<tr>
+<td><code>bun index.ts --help</code></td>
+<td>Display CLI help</td>
+</tr>
+<tr>
+<td><code>bun run typecheck</code></td>
+<td>TypeScript type checking</td>
+</tr>
+<tr>
+<td><code>bun run lint</code></td>
+<td>ESLint + Prettier check</td>
+</tr>
+</tbody>
+</table>
+<h2 id="coding-standards">Coding Standards</h2>
+<ul>
+<li><strong>ES Modules</strong>: <code>&quot;type&quot;: &quot;module&quot;</code></li>
+<li><strong>TypeScript strict</strong>: Full type safety</li>
+<li><strong>Entry point</strong>: <code>index.ts</code> (main module)</li>
+<li><strong>Markdown linting</strong>: Strict MD formatting rules</li>
+<li><strong>Output structure</strong>: Generated files under <code>output/</code></li>
+<li><strong>CLI conventions</strong>: <code>--help</code>, <code>--input</code>, <code>--output</code>, <code>--format</code> flags</li>
+</ul>
+<h2 id="extensibility">Extensibility</h2>
+<ul>
+<li>Add new document types (e.g., portfolio, bio)</li>
+<li>Add new output formats (e.g., DOCX, HTML)</li>
+<li>Support additional input formats (YAML, TOML)</li>
+<li>Add template customization via command-line options</li>
+</ul>
+<h2 id="license">License</h2>
+<p>MIT — © Alexander Iseghohi</p>
+</div>
+        </div>

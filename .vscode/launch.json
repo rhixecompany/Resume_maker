@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Resume Maker: Run CLI",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bun",
+      "program": "${workspaceFolder}/index.ts",
+      "args": [
+        "--input",
+        "sample-input.json",
+        "--output",
+        "smoke-resume",
+        "--format",
+        "both",
+        "--verbose"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Resume Maker: Help",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "bun",
+      "program": "${workspaceFolder}/index.ts",
+      "args": [
+        "--help"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}

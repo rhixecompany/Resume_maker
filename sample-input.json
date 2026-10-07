@@ -1,0 +1,41 @@
+{
+  "contact": {
+    "email": "alexander@example.com",
+    "phone": "+1 (000) 000-0000",
+    "linkedin": "linkedin.com/in/placeholder",
+    "github": "github.com/placeholder"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University Name",
+      "graduationYear": "2024"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full-Stack Developer",
+      "company": "Horizon Banking Platform",
+      "location": "Remote",
+      "startDate": "2024",
+      "highlights": [
+        "Developed a modern full-stack fintech banking application using Next.js 14+ and TypeScript",
+        "Implemented secure user flows, forms, and robust data validation with Zod",
+        "Built scalable architecture suitable for production financial environments"
+      ]
+    }
+  ],
+  "name": "Alexander Iseghohi",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "Next.js (App Router)",
+    "React",
+    "Node.js",
+    "Zod",
+    "Selenium WebDriver",
+    "Git"
+  ],
+  "summary": "Results-driven Full-Stack Developer with hands-on experience building modern web applications using Next.js, TypeScript, and best practices.",
+  "title": "Full-Stack Developer"
+}

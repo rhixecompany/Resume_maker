@@ -1,0 +1,50 @@
+{
+  "name": "Ilechukwu Onyedika Basil",
+  "title": "Site Supervisor and Construction Project Manager",
+  "contact": {
+    "email": "basililechukwu8@gmail.com",
+    "phone": "09041325216",
+    "linkedin": "",
+    "github": "",
+    "website": ""
+  },
+  "summary": "Dedicated Site Supervisor and Construction Project Manager with hands-on experience overseeing on-site operations, coordinating teams, and maintaining health, safety, and quality standards. Skilled in project coordination, material management, progress reporting, and team leadership.",
+  "experience": [
+    {
+      "title": "Site Supervisor and Manager",
+      "company": "Rexos Properties",
+      "location": "On Site",
+      "startDate": "May 2025",
+      "endDate": "June 2026",
+      "isCurrentRole": false,
+      "highlights": [
+        "Supervised daily on-site construction operations and ensured adherence to project timelines, quality standards, and safety protocols",
+        "Coordinated subcontractors and laborers to maintain productive and safe work environment",
+        "Implemented quality control measures to reduce rework and meet client specifications",
+        "Managed material procurement, inventory, and distribution to optimize resource utilization",
+        "Conducted safety inspections and toolbox talks to maintain health and safety compliance",
+        "Prepared progress reports and used Microsoft Excel for scheduling, tracking, and reporting"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "To be updated",
+      "institution": "To be updated",
+      "graduationYear": "To be updated"
+    }
+  ],
+  "skills": [
+    "Site Supervision",
+    "Construction Project Coordination",
+    "Team Leadership",
+    "Quality Control",
+    "Health & Safety Compliance",
+    "Material Planning & Management",
+    "Progress Reporting",
+    "Time Management",
+    "Problem Solving",
+    "Microsoft Office (Word & Excel)"
+  ],
+  "projects": []
+}
