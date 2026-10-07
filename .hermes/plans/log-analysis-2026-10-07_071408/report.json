@@ -1,0 +1,401 @@
+{
+  "ts": "2026-10-07T06:16:16.287831+00:00",
+  "logs_dir": "<HERMES_HOME>/logs",
+  "file_count": 26,
+  "total_lines": 126279,
+  "total_errors": 2500,
+  "all_line_categories": {
+    "other": 67309,
+    "plugin": 36901,
+    "provider": 12234,
+    "chat": 2502,
+    "mcp": 1843,
+    "session": 1682,
+    "hook": 1500,
+    "network": 1190,
+    "rate_limit": 542,
+    "subagent": 299,
+    "config": 275,
+    "tool": 2
+  },
+  "levels": {
+    "INFO": 62248,
+    "NONE": 51226,
+    "WARNING": 10304,
+    "ERROR": 2495,
+    "CRITICAL": 5,
+    "DEBUG": 1
+  },
+  "error_categories": {
+    "other": 1817,
+    "session": 310,
+    "provider": 256,
+    "rate_limit": 70,
+    "network": 47
+  },
+  "top_error_signatures_sanitized": [
+    {
+      "count": 828,
+      "signature": "pydantic_core._pydantic_core.ValidationError: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]"
+    },
+    {
+      "count": 46,
+      "signature": "openai.APIConnectionError: Connection error."
+    },
+    {
+      "count": 36,
+      "signature": "openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1790467200000'}, '"
+    },
+    {
+      "count": 24,
+      "signature": "RuntimeError: internal error: APIError: Upstream error from Nvidia: Service temporarily overloaded"
+    },
+    {
+      "count": 24,
+      "signature": "openai.APIError: Upstream error from Nvidia: Service temporarily overloaded"
+    },
+    {
+      "count": 14,
+      "signature": "agent.gemini_native_adapter.GeminiAPIError: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https"
+    },
+    {
+      "count": 6,
+      "signature": "openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1791417600000'}, '"
+    },
+    {
+      "count": 6,
+      "signature": "2026-10-06 21:11:44,895 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 6,
+      "signature": "openai.RateLimitError: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}"
+    },
+    {
+      "count": 6,
+      "signature": "openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1790467200000'}, "
+    },
+    {
+      "count": 6,
+      "signature": "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:18:56,711 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:19:01,700 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:20:04,130 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:20:05,956 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:20:07,504 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:21:08,200 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:21:08,204 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:33:54,832 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    },
+    {
+      "count": 4,
+      "signature": "2026-09-27 04:33:54,856 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+    }
+  ],
+  "per_file": [
+    {
+      "name": "errors.log.1",
+      "size": 2096997,
+      "lines": 21366,
+      "errors": 1218,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "2026-09-26 14:56:21,380 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "openai.RateLimitError: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "2026-09-26 15:03:01,859 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "openai.RateLimitError: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "2026-09-26 15:11:04,795 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Connection error."
+      ]
+    },
+    {
+      "name": "agent.log.1",
+      "size": 5242810,
+      "lines": 38239,
+      "errors": 826,
+      "top_category": "plugin",
+      "sample_errors_sanitized": [
+        "2026-09-27 04:18:56,711 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server",
+        "pydantic_core._pydantic_core.ValidationError: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]",
+        "2026-09-27 04:18:56,711 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server",
+        "pydantic_core._pydantic_core.ValidationError: 1 validation error for union[JSONRPCRequest,JSONRPCNotification,JSONRPCResponse,JSONRPCError]",
+        "2026-09-27 04:18:59,101 ERROR mcp.client.stdio: Failed to parse JSONRPC message from server"
+      ]
+    },
+    {
+      "name": "agent.log.2",
+      "size": 5242772,
+      "lines": 34588,
+      "errors": 382,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "2026-09-26 14:56:21,380 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "openai.RateLimitError: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "2026-09-26 15:03:01,859 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "openai.RateLimitError: Error code: 429 - {'status': 429, 'message': \"The requested model is temporarily at capacity upstream. This is not your API key's rate limit — please retry shortly.\"}",
+        "2026-09-26 15:11:04,795 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Connection error."
+      ]
+    },
+    {
+      "name": "agent.log",
+      "size": 1787355,
+      "lines": 10401,
+      "errors": 16,
+      "top_category": "plugin",
+      "sample_errors_sanitized": [
+        "2026-10-07 03:55:36,489 ERROR agent.chat_completion_helpers: Streaming failed before delivery: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50'",
+        "openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 5 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1791417600000'}, '",
+        "2026-10-07 04:32:45,296 ERROR mcp.client.auth.oauth2: OAuth flow error",
+        "2026-10-07 05:19:28,642 ERROR mcp.client.auth.oauth2: OAuth flow error",
+        "2026-10-07 06:29:41,734 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Failed to sync messages to Honcho: Payment required: Insufficient credits. Please add credits at https://app.honcho.dev/billing or enable auto top-up."
+      ]
+    },
+    {
+      "name": "gateway-shutdown-diag.log",
+      "size": 24240,
+      "lines": 503,
+      "errors": 13,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "[Sat Sep 26 17:43:58 2026] WSL (109) ERROR: CheckConnection: getaddrinfo() failed: -5",
+        "[Sat Sep 26 17:44:23 2026] WSL (109) ERROR: CheckConnection: getaddrinfo() failed: -5",
+        "[Sat Sep 26 17:44:37 2026] WSL (109) ERROR: CheckConnection: getaddrinfo() failed: -5",
+        "[Sat Sep 26 18:11:11 2026] WSL (109) ERROR: CheckConnection: getaddrinfo() failed: -3",
+        "[Sat Sep 26 18:11:13 2026] WSL (109) ERROR: CheckConnection: getaddrinfo() failed: -5"
+      ]
+    },
+    {
+      "name": "mcp-stderr.log",
+      "size": 68385,
+      "lines": 1285,
+      "errors": 10,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "2026-10-07 04:33:03,568 error: GET https://registry.npmjs.org/docs-mcp - 404",
+        "2026-10-07 04:33:05,211 error: GET https://registry.npmjs.org/docs-mcp - 404",
+        "2026-10-07 05:13:17,589 error: GET https://registry.npmjs.org/docs-mcp - 404",
+        "2026-10-07 05:13:19,357 error: GET https://registry.npmjs.org/docs-mcp - 404",
+        "2026-10-07 05:13:22,124 error: GET https://registry.npmjs.org/docs-mcp - 404"
+      ]
+    },
+    {
+      "name": "tui_gateway_crash.log",
+      "size": 1225420,
+      "lines": 17011,
+      "errors": 9,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "[tui-parent] 2026-09-27T00:21:04.403Z uncaughtException: Error: write EIO",
+        "[tui-parent] 2026-09-27T00:21:04.775Z uncaughtException: Error: write EIO",
+        "[tui-parent] 2026-09-27T00:21:04.937Z uncaughtException: Error: getWindowSize EIO",
+        "[tui-parent] 2026-09-27T00:21:04.962Z uncaughtException: Error: getWindowSize EIO",
+        "[tui-parent] 2026-09-27T00:21:05.058Z uncaughtException: Error: write EIO"
+      ]
+    },
+    {
+      "name": "errors.log",
+      "size": 46394,
+      "lines": 369,
+      "errors": 6,
+      "top_category": "plugin",
+      "sample_errors_sanitized": [
+        "2026-10-07 07:06:06,325 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Failed to sync messages to Honcho: Payment required: Insufficient credits. Please add credits at https://app.honcho.dev/billing or enable auto top-up.",
+        "2026-10-07 07:06:08,736 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Failed to sync messages to Honcho: Payment required: Insufficient credits. Please add credits at https://app.honcho.dev/billing or enable auto top-up.",
+        "2026-10-07 07:06:08,736 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Honcho async write retry failed, dropping batch",
+        "2026-10-07 07:12:22,234 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Failed to sync messages to Honcho: Payment required: Insufficient credits. Please add credits at https://app.honcho.dev/billing or enable auto top-up.",
+        "2026-10-07 07:12:24,412 ERROR _hermes_user_memory.honcho__source_ae59578e60729854.session: Failed to sync messages to Honcho: Payment required: Insufficient credits. Please add credits at https://app.honcho.dev/billing or enable auto top-up."
+      ]
+    },
+    {
+      "name": "install.log",
+      "size": 27847,
+      "lines": 594,
+      "errors": 6,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`",
+        "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`",
+        "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`",
+        "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`",
+        "✗ node: staged entry failed verification: <HOME> --version exited 127: <HOME>: error while loading shared libraries: libatomic.so.1: cannot open shared object file: No such file or directory — retry, or run `hermes pm doctor`"
+      ]
+    },
+    {
+      "name": "update.log",
+      "size": 25630,
+      "lines": 601,
+      "errors": 6,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "  → Building the web UI… Error: TypeScript build failed (2)",
+        "      Error: TypeScript build failed (2)",
+        "      src/components/ChatSessionList.test.tsx:10:12 - error TS7017: Element implicitly has an 'any' type because type 'typeof globalThis' has no index signature.",
+        "      src/components/ChatSessionList.test.tsx:17:5 - error TS2339: Property 'ghost' does not exist on type 'ButtonHTMLAttributes<HTMLButtonElement>'.",
+        "      src/components/ChatSessionList.test.tsx:19:5 - error TS2339: Property 'outlined' does not exist on type 'ButtonHTMLAttributes<HTMLButtonElement>'."
+      ]
+    },
+    {
+      "name": "action-skills-install-skills-sh-jsmastery-pro-skills-architect-e1af07d0.log",
+      "size": 6920,
+      "lines": 118,
+      "errors": 4,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "  CRITICAL persistence    SKILL.md:38                    \"Writes no code. Never ",
+        "  CRITICAL persistence    SKILL.md:110                   \"- **Read project ",
+        "  CRITICAL persistence    SKILL.md:125                   \"**Community skills** ",
+        "  CRITICAL persistence    SKILL.md:129                   \"3. Available ≠ "
+      ]
+    },
+    {
+      "name": "action-skills-install-official-autonomous-ai-agents-antigravity-cli-c50527af.log",
+      "size": 822,
+      "lines": 18,
+      "errors": 1,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "  CRITICAL supply_chain   references/cli-docs.md:9       \"- macOS/Linux: `curl "
+      ]
+    },
+    {
+      "name": "action-skills-install-skills-sh-blockmatic-basilic-skills-w-coderabbit-8cfcf7e0.log",
+      "size": 431,
+      "lines": 9,
+      "errors": 1,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "Error: Could not download 'skills-sh/blockmatic/basilic-skills/w-coderabbit'."
+      ]
+    },
+    {
+      "name": "action-skills-install-skills-sh-coderabbitai-skills-autofix-077fbfc4.log",
+      "size": 398,
+      "lines": 9,
+      "errors": 1,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "Error: Could not download 'skills-sh/coderabbitai/skills/autofix'."
+      ]
+    },
+    {
+      "name": "action-skills-install-skills-sh-jsmastery-pro-skills-audit-b1caddc7.log",
+      "size": 395,
+      "lines": 9,
+      "errors": 1,
+      "top_category": "other",
+      "sample_errors_sanitized": [
+        "Error: Could not download 'skills-sh/jsmastery-pro/skills/audit'."
+      ]
+    },
+    {
+      "name": "action-skills-install-official-autonomous-ai-agents-agent-merge-confli-49bb2ca5.log",
+      "size": 723,
+      "lines": 15,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "action-skills-install-official-software-development-ast-grep-6c10514d.log",
+      "size": 3841,
+      "lines": 71,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "action-skills-install-skills-sh-coderabbitai-skills-code-review-bbf864fb.log",
+      "size": 1354,
+      "lines": 21,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "action-skills-install-skills-sh-fallow-rs-fallow-skills-fallow-16c65f8b.log",
+      "size": 13312,
+      "lines": 240,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "action-skills-install-skills-sh-fallow-rs-fallow-skills-fallow-review-29c2daee.log",
+      "size": 1510,
+      "lines": 23,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "action-skills-update.log",
+      "size": 74,
+      "lines": 4,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "gateway-exit-diag.log",
+      "size": 16951,
+      "lines": 37,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "gateway-restart.log",
+      "size": 351,
+      "lines": 6,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "gateway.log",
+      "size": 64230,
+      "lines": 515,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "gateway_faulthandler.log",
+      "size": 0,
+      "lines": 0,
+      "errors": 0,
+      "top_category": "other",
+      "sample_errors_sanitized": []
+    },
+    {
+      "name": "gui.log",
+      "size": 26442,
+      "lines": 227,
+      "errors": 0,
+      "top_category": "plugin",
+      "sample_errors_sanitized": []
+    }
+  ]
+}
