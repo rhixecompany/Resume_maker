@@ -1,0 +1,12 @@
+--- DEDUPLICATION ---
+Decision: 20 flat top-level dirs are SYMLINK PROXYs to canonical source
+/home/alexa/.agents/skills/<name>.  Resolution: proxy -> canonical,
+no content duplication; canonical is canonical. Keep both.
+---
+--- VERIFICATION (post-change) ---
+Command: hermes skills list --source all
+Expected: counts unchanged / valid, exit 0; flat symlinks resolve.
+Command: hermes skills list --source local
+Expected: 1154 local, no broken symlinks, exit 0.
+Command: hermes skills view <each-flat-proxy>
+Expected: loads from canonical source, exit 0.
