@@ -1,0 +1,41 @@
+⚠ Installed gateway service definition is outdated
+  Run: hermes gateway restart  # auto-refreshes the unit
+
+Traceback (most recent call last):
+  File "<string>", line 131, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/main.py", line 3627, in main
+    rc = args.func(args)
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/main.py", line 1838, in cmd_gateway
+    gateway_command(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/gateway.py", line 4955, in gateway_command
+    return _gateway_command_inner(args)
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/gateway.py", line 5773, in _gateway_command_inner
+    handler(args)
+    ~~~~~~~^^^^^^
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/gateway.py", line 5693, in _cmd_status
+    systemd_status(deep, system=system, full=full)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/gateway.py", line 3940, in systemd_status
+    _run_systemctl(status_cmd, system=system, capture_output=False, timeout=10)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/hermes-agent/hermes_cli/gateway.py", line 2536, in _run_systemctl
+    return subprocess.run(_systemctl_cmd(system) + args, **kwargs)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/subprocess.py", line 557, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/subprocess.py", line 1221, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/subprocess.py", line 2179, in _communicate
+    self.wait(timeout=self._remaining_time(endtime))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/subprocess.py", line 1279, in wait
+    return self._wait(timeout=timeout)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/alexa/.hermes/tools/python-3.14.7+20260901-linux-x64/lib/python3.14/subprocess.py", line 2076, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['systemctl', '--user', 'status', 'hermes-gateway', '--no-pager']' timed out after 10 seconds

@@ -1,0 +1,658 @@
+[
+  {
+    "name": "agent-analytics",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Dashboard-only read plugin for Agent Analytics inside Hermes.",
+    "source": "catalog:community@63f11d36",
+    "removed": null
+  },
+  {
+    "name": "agent-log",
+    "status": "disabled",
+    "version": "1.0.0",
+    "description": "Readable agent.log viewer in the desktop status bar \u2014 live colour-coded event feed, per-call tokens/latency/cache, tool stats, fallback & credential alerts.",
+    "source": "catalog:community@e58702e6",
+    "removed": null
+  },
+  {
+    "name": "ai-usage-tracker",
+    "status": "enabled",
+    "version": "1.0.2",
+    "description": "Live subscription-quota windows for every AI provider Hermes can route to, per profile",
+    "source": "catalog:community@14e844f6",
+    "removed": null
+  },
+  {
+    "name": "antigravity-subscription-directsdk",
+    "status": "enabled",
+    "version": "1.0.10",
+    "description": "Run Hermes on an Antigravity / Gemini subscription via the official agy CLI (DirectSDK path). Streams tokens progressively, maps thinking effort, tracks subscription quota in /usage, runs from a private temp directory, and aborts reported native tool steps.",
+    "source": "catalog:community@f848f777",
+    "removed": null
+  },
+  {
+    "name": "anysearch",
+    "status": "enabled",
+    "version": "1.1.0",
+    "description": "AnySearch web search + extract (REST /v1/search with format=markdown + /v1/extract), plus two fallback chains: Exa\u2192AnySearch for search and Firecrawl\u2192AnySearch for extract. ANYSEARCH_API_KEY optional: anonymous tier works, a free key raises the quota to 1000 requests/day.",
+    "source": "catalog:community@43c1757a",
+    "removed": null
+  },
+  {
+    "name": "billing",
+    "status": "disabled",
+    "version": "0.1.0",
+    "description": "Nous Portal usage widget for the Hermes desktop statusbar \u2014 remaining credits plus plan-usage percentage, with portal detail on hover.",
+    "source": "catalog:community@2dfcc8ef",
+    "removed": null
+  },
+  {
+    "name": "chrome-profiles",
+    "status": "enabled",
+    "version": "2.0.0",
+    "description": "Switch Hermes' browser tools to a named Chromium-family browser over CDP, so they inherit that browser's cookies and logged-in sessions. Local profiles launch on demand; remote profiles connect to an already-listening endpoint.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "cli-enhancements",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Enhanced CLI commands for diagnostics, monitoring, and automation",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "compact-reasoning-label",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Keeps the composer's model pill to just the model name; the thinking level lives only in the reasoning dropdown beside it.",
+    "source": "catalog:community@37fe9446",
+    "removed": null
+  },
+  {
+    "name": "compartment",
+    "status": "disabled",
+    "version": "4.10.0",
+    "description": "Compartment - high-security, fully offline, encrypted vector memory. AEAD-encrypted vault, locked-by-default after restart, native Hermes provider, no API key.",
+    "source": "catalog:community@b144fc34",
+    "removed": null
+  },
+  {
+    "name": "context-engineering",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Context engineering patterns for Copilot prompts",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "cronalytics",
+    "status": "disabled",
+    "version": "1.1.0 (2026052601)",
+    "description": "Cost and operational observability for Hermes cron jobs",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "crypto-prices",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Live crypto price ticker for the desktop status bar \u2014 Top 10 by market cap, custom coins & currencies (CoinGecko, no API key).",
+    "source": "catalog:community@69d34d7f",
+    "removed": null
+  },
+  {
+    "name": "document-reader",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Profile-scoped document OCR for Hermes Desktop and HUD, with a guarded per-profile Windows service.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "eagle-eye",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "5-layer intelligent skill matching \u2014 narrows 100+ skills to top-5 via hard triggers, FTS5, synonym dictionary, dense embedding, and RRF fusion. Zero core modification.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "fusion",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Multi-model fusion router: detects your installed model fleet across Hermes, Codex, Claude and Grok and builds a Frontier -> Middle Manager -> Frontier routing structure with pinned models and provenance.",
+    "source": "catalog:community@edab6a6d",
+    "removed": null
+  },
+  {
+    "name": "gh-skills-builder",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Create GitHub Skills exercises and self-paced learning content",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "githermes",
+    "status": "enabled",
+    "version": "0.5.0",
+    "description": "GitHub PRs & Issues as a right workspace pane in Hermes Desktop. Data via the connected gh CLI \u2014 no backend, no tokens.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "grill-tab",
+    "status": "enabled",
+    "version": "0.2.0",
+    "description": "Interrogate a draft intent and synthesize an execution brief.",
+    "source": "catalog:community@2630fe2c",
+    "removed": null
+  },
+  {
+    "name": "ha-sidebar-navigator",
+    "status": "enabled",
+    "version": "0.3.0",
+    "description": "Full-power sidebar navigator & uncapped project/session explorer for Hermes Desktop. Bypasses the 3-session overview cap with searchable, scrollable project trees and timeline view.",
+    "source": "catalog:community@e0252176",
+    "removed": null
+  },
+  {
+    "name": "hades-coding-workflows",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Coding workflow skills \u2014 dual-model harness, subagent-driven development, and implementation planning patterns for Hermes Agent",
+    "source": "catalog:community@b68546d6",
+    "removed": null
+  },
+  {
+    "name": "herdr-auto-reconcile",
+    "status": "enabled",
+    "version": "1.1.0",
+    "description": "Wake Hermes when owned Herdr panes need reconciliation.",
+    "source": "catalog:community@7a018780",
+    "removed": null
+  },
+  {
+    "name": "hermes-achievements",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Achievement tracking and milestone system for Hermes Agent",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "hermes-evolve",
+    "status": "enabled",
+    "version": "1.3.0",
+    "description": "Hot-reload plugins and evolve the system prompt in-place \u2014 /evolve now",
+    "source": "catalog:community@941c0b11",
+    "removed": null
+  },
+  {
+    "name": "hermes-group-model-sync",
+    "status": "enabled",
+    "version": "1.1.0",
+    "description": "Fleet-wide provider/model presets (CLI + desktop pane) plus per-member model & reasoning selection for Bot Mode group chats and agent-wide model sync",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "hermes-ledgerline",
+    "status": "enabled",
+    "version": "0.1.7.post2",
+    "description": "Inspect session costs and usage in Hermes Desktop.",
+    "source": "catalog:community@9be4b850",
+    "removed": null
+  },
+  {
+    "name": "hermes-loadout",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Loadout for Hermes separates skill inventory from per-application activation. Save named skill and MCP selections, review changes, and undo the latest managed operation safely. Includes explicit Global/Project targets, protected entry diagnostics, and opt-in desktop controls.",
+    "source": "catalog:community@e31ad580",
+    "removed": null
+  },
+  {
+    "name": "hermes-memory-ui",
+    "status": "enabled",
+    "version": "0.6.0",
+    "description": "Read-only Hermes Dashboard and Desktop plugin for inspecting built-in, holographic, Mem0, Honcho, Mnemosyne, Hindsight, and ByteRover memory.",
+    "source": "catalog:community@9472bed7",
+    "removed": null
+  },
+  {
+    "name": "hermes-office",
+    "status": "enabled",
+    "version": "0.1.0.post1",
+    "description": "View and manage Bot Mode agents in a shared office in Hermes Desktop.",
+    "source": "catalog:community@e1e0255a",
+    "removed": null
+  },
+  {
+    "name": "hermes-payguard",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Safe-by-design USDC and x402 payment tools for Hermes Agent",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "hermes-resetwatch",
+    "status": "enabled",
+    "version": "0.2.19",
+    "description": "Track subscription quotas and reset times in Hermes Desktop.",
+    "source": "catalog:community@1bb6ec08",
+    "removed": null
+  },
+  {
+    "name": "hermes-ssh",
+    "status": "enabled",
+    "version": "0.3.3.post2",
+    "description": "Manage SSH connections and remote workspaces in Hermes Desktop.",
+    "source": "catalog:community@02c6b34e",
+    "removed": null
+  },
+  {
+    "name": "hermes-structured-aux-models",
+    "status": "disabled",
+    "version": "0.1.0",
+    "description": "Routes selected Hermes auxiliary tasks through bounded Jev decision calls on OpenRouter instead of free-form chat prompts.",
+    "source": "catalog:community@e5c49b08",
+    "removed": null
+  },
+  {
+    "name": "hermes-tailscale",
+    "status": "enabled",
+    "version": "0.0.5.post2",
+    "description": "Browse Tailscale devices and connect to remote Hermes instances in Hermes Desktop.",
+    "source": "catalog:community@6dad1d5a",
+    "removed": null
+  },
+  {
+    "name": "hermes-terminal",
+    "status": "enabled",
+    "version": "0.0.3.post2",
+    "description": "Run the Hermes terminal interface in a Hermes Desktop workspace tab.",
+    "source": "catalog:community@43658bf3",
+    "removed": null
+  },
+  {
+    "name": "hindsight",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Hindsight \u2014 long-term memory with knowledge graph, entity resolution, and multi-strategy retrieval.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "homeassistant",
+    "status": "enabled",
+    "version": "2.0.1",
+    "description": "Home Assistant for Hermes Agent: a gateway platform adapter plus four smart-home tools. The adapter subscribes to HA's WebSocket event bus and forwards state-change events (with per-entity cooldowns and domain/entity filtering) to the agent; replies are delivered as HA persistent notifications, and cron deliver=homeassistant goes through the notify.notify service. The homeassistant toolset (ha_list_entities, ha_get_state, ha_list_services, ha_call_service) queries and controls devices over the REST API. Formerly built into Hermes core.\n",
+    "source": "catalog:official@ba30cb0c",
+    "removed": null
+  },
+  {
+    "name": "honcho",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Honcho AI-native memory \u2014 cross-session user modeling with dialectic Q&A, semantic search, and persistent conclusions.",
+    "source": "catalog:community@3dd3b7ad",
+    "removed": null
+  },
+  {
+    "name": "infisical",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Secret source plugin that resolves environment variables from an Infisical secret store (cloud or self-hosted) at Hermes startup. Registers a mapped source (\"infisical\", inf:// references) and a bulk source (\"infisical_bulk\").\n",
+    "source": "catalog:community@d1c5d462",
+    "removed": null
+  },
+  {
+    "name": "intelligent_memory",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Local-first Arabic/English intelligent memory with canonical facts, conflict lifecycle, bounded recall, and selective Hermes cloud enrichment.",
+    "source": "catalog:community@2d15ce5b",
+    "removed": null
+  },
+  {
+    "name": "iteration-budget-meter",
+    "status": "enabled",
+    "version": "1.2.2",
+    "description": "Status-bar iteration budget meter \u2014 shows the focused session's per-turn iteration usage (N/60) while a turn runs, with a hover tooltip and a click popover with per-request stats (average tool calls, max-hit ratio, ceiling suggestion). v1.1.0 fixed the cumulative-counter leak; v1.2.0 redesigned the popover.",
+    "source": "catalog:community@bfe740a8",
+    "removed": null
+  },
+  {
+    "name": "jev-agent-router",
+    "status": "disabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 jev-agent-router",
+    "source": "catalog:community@8cb6d67a",
+    "removed": null
+  },
+  {
+    "name": "jev-mcp-router",
+    "status": "disabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 jev-mcp-router",
+    "source": "catalog:community@6a7b3baf",
+    "removed": null
+  },
+  {
+    "name": "jev-memory-selector",
+    "status": "disabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 jev-memory-selector",
+    "source": "catalog:community@87bd9be2",
+    "removed": null
+  },
+  {
+    "name": "jev-model-router",
+    "status": "disabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 jev-model-router",
+    "source": "catalog:community@b977dc3e",
+    "removed": null
+  },
+  {
+    "name": "job-search",
+    "status": "enabled",
+    "version": "0.9.0",
+    "description": "A private, local-first job-search assistant that finds postings, judges them against your prose preferences (no scores), and writes digests on a schedule you control.",
+    "source": "catalog:community@dba0c099",
+    "removed": null
+  },
+  {
+    "name": "junie-acp",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "JetBrains Junie coding agent as a Hermes model provider over ACP",
+    "source": "catalog:community@296ea839",
+    "removed": null
+  },
+  {
+    "name": "kiro-provider",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Native Kiro provider with Hermes auth, usage, model catalog, and capability hooks.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "kiwi",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Rebuilt plugin \u2014 kiwi (previous plugin.yaml MISSING; rebuilt 2026-09-24 best-effort; repair instructions NOT AVAILABLE from plugin-health-check SKILL.md; WinError 5 file-lock on .git directories preserved honestly \u2014 deletion BLOCKED for some items; NOT a fabricated clean result)",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "markifact",
+    "status": "enabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 markifact",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "mem-os",
+    "status": "enabled",
+    "version": "unknown",
+    "description": "Repaired plugin \u2014 mem-os",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "memory-review",
+    "status": "enabled",
+    "version": "1.2.1",
+    "description": "A dialog to checkbox staged memory writes and approve or reject the selection.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "memory-wiki",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Memory Wiki dashboard tab: browsable subject pages and daily logs derived from local session history, plus a read-only Persistent Memory audit panel (MEMORY.md / USER.md).",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "mindstudio-agent",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "MindStudio agent SDK for step execution and MCP integration",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "my-github",
+    "status": "enabled",
+    "version": "1.2.1",
+    "description": "GitHub repository browser with a desktop statusbar chip, palette command, and dashboard tab using the authenticated gh CLI.",
+    "source": "catalog:community@21f78065",
+    "removed": null
+  },
+  {
+    "name": "nous-prices",
+    "status": "enabled",
+    "version": "0.1.1.post2",
+    "description": "Browse Nous Portal model prices and account balances in Hermes Desktop.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "obsidian-memory",
+    "status": "enabled",
+    "version": "3.0.0",
+    "description": "Browse, search, and edit Obsidian vault notes from the Hermes dashboard. Features force-directed graph visualization, multi-vault support, markdown rendering with wikilinks, and inline note editing.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "oc-free-provider",
+    "status": "enabled",
+    "version": "3.0.0",
+    "description": "Unofficial OpenCode Zen free-model transport with Hermes-local tools",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "oh-my-hermes",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Curated skills pack, workflows, and bootstrap tooling for Hermes Agent",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "omnivoice",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "OmniVoice TTS provider for Hermes Agent",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "opaque-composer",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Keep the desktop composer solid while scrolling so conversation text stays readable.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "opencode",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Dispatch coding tasks to OpenCode's multi-agent harness (oh-my-opencode)",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "parallel-search",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Rebuilt plugin \u2014 parallel-search (previous plugin.yaml MISSING; rebuilt 2026-09-24 best-effort; repair instructions NOT AVAILABLE from plugin-health-check SKILL.md; WinError 5 file-lock on .git directories preserved honestly \u2014 deletion BLOCKED for some items; NOT a fabricated clean result)",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "project-planning",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Software project planning, feature breakdown, and task organization",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "prompt-enhance",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Send a saved prompt with the current draft as context. Folders, reorder, and a one-call model override that never writes the session.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "prompt-enhancer",
+    "status": "enabled",
+    "version": "1.3.0",
+    "description": "A button in the Hermes Desktop composer that rewrites a rough draft into a structured prompt (task / scope / constraints / output shape), with one more click to restore the original. Stateless single gateway call, preserves @file and /command chips, per-session state.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "prompt-snippets",
+    "status": "enabled",
+    "version": "1.6.0",
+    "description": "Prompt snippet library for the Hermes Desktop composer: a quick-pick overlay styled after the app's own slash menu (own shortcut), plus a management view with drag reordering, group tags and import/export. Inserts into the focused session, not the active one.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "provider-copy",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Copy provider API keys (and provider base-URL overrides) from one profile to your other profiles \u2014 a one-time, explicit copy. OAuth sign-ins and messaging bot tokens never travel.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "provider-status",
+    "status": "enabled",
+    "version": "1.5.7",
+    "description": "Unified multi-provider quota usage tracking in the status bar, with read-only OAuth access checks and user-managed provider pools. Public edition does not read vendor CLI auth files, refresh vendor tokens during polling, write Hermes config automatically, or copy secrets into library.env.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "pstack",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Poteto's engineering rigor stack \u2014 playbooks, principles, multi-model review.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "rate-limit-bypass",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Provider-aware rate-limit bypass plugin with retry/rotation wrapper",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "reasoning-switch",
+    "status": "enabled",
+    "version": "1.1.1",
+    "description": "Rotate the focused session's reasoning effort from the statusbar; dialog configures the rotation levels, their colors, and per-level prompt limits.",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "reme",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "ReMe local-first, file-native long-term memory for Hermes Agent (HTTP or embedded).",
+    "source": "user",
+    "removed": null
+  },
+  {
+    "name": "session-dashboard",
+    "status": "enabled",
+    "version": "0.3.2",
+    "description": "Per-session analytics \u2014 tool calls, token/cache usage, spend, failures, subagents, search.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "session-ref",
+    "status": "enabled",
+    "version": "0.1.0",
+    "description": "Reference another session in the composer with @session \u2014 pick from live suggestions; no context injection.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "session-styler",
+    "status": "enabled",
+    "version": "1.3.1",
+    "description": "Style the Hermes Desktop session list: per-conversation icons from a \u2726 menu on every row, a status mark beside them, colors, sizes and match rules, with branch children inheriting their parent's icon. Settings are mirrored into the active profile so a new machine restores them on load, and every load reports itself to the profile under a per-machine key. Arabic + English, following the app's language.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "snyk",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Rebuilt plugin \u2014 snyk (previous plugin.yaml MISSING; rebuilt 2026-09-24 best-effort; repair instructions NOT AVAILABLE from plugin-health-check SKILL.md; WinError 5 file-lock on .git directories preserved honestly \u2014 deletion BLOCKED for some items; NOT a fabricated clean result)",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "sticky-notes",
+    "status": "enabled",
+    "version": "0.2.0",
+    "description": "In-window sticky notes for Hermes Desktop.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "subagent-viewer",
+    "status": "enabled",
+    "version": "0.1.2",
+    "description": "Read-only Subagent Viewer pane for Hermes Desktop. Live worker cards for spawned subagents (goal, model, status, streaming thinking/tool/output), Active/Past view toggle, and full-output copy. Observes and copies; never steers, interrupts, spawns, or mutates the orchestrator session. This is the MVP subset of the larger in-development Chief of Staff fan-out plugin.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "subscription-meter",
+    "status": "enabled",
+    "version": "0.2.1",
+    "description": "Subscription quota dashboard \u2014 per-provider show/hide from the UI; plans render as 84 cells, account rows show balance.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "supermemory",
+    "status": "enabled",
+    "version": "1.0.1",
+    "description": "Supermemory semantic long-term memory with profile recall, semantic search, explicit memory tools, and per-turn conversation capture.",
+    "source": "git",
+    "removed": null
+  },
+  {
+    "name": "superpowers",
+    "status": "enabled",
+    "version": "1.0.0",
+    "description": "Superpowers suite for Claude Code and Copilot CLI",
+    "source": "user",
+    "removed": null
+  }
+]

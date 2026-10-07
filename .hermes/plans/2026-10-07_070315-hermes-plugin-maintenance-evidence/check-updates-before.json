@@ -1,0 +1,842 @@
+[
+  {
+    "name": "agent-analytics",
+    "class": "catalog",
+    "current": "63f11d3669330e40dad977b7d32f9b69e69a9fb8",
+    "latest": "63f11d3669330e40dad977b7d32f9b69e69a9fb8",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "agent-log",
+    "class": "catalog",
+    "current": "e58702e60b2697c9d1dc3daa9eb65ac1fcc50560",
+    "latest": "e58702e60b2697c9d1dc3daa9eb65ac1fcc50560",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "ai-usage-tracker",
+    "class": "catalog",
+    "current": "14e844f6ced5e0d618c767d726330a78c5cadadd",
+    "latest": "14e844f6ced5e0d618c767d726330a78c5cadadd",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "antigravity-subscription-directsdk",
+    "class": "catalog",
+    "current": "f848f777145d69b7f417d6cc86a48821bd85bc77",
+    "latest": "f848f777145d69b7f417d6cc86a48821bd85bc77",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "anysearch",
+    "class": "catalog",
+    "current": "43c1757a5d12d4d7adb4e74326c99182f4957b6f",
+    "latest": "43c1757a5d12d4d7adb4e74326c99182f4957b6f",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "billing",
+    "class": "catalog",
+    "current": "2dfcc8ef346c1be65861bc8e8295c9727eb77c39",
+    "latest": "2dfcc8ef346c1be65861bc8e8295c9727eb77c39",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "chrome-profiles",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "cli-enhancements",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "compact-reasoning-label",
+    "class": "catalog",
+    "current": "37fe9446bed8660fcf6c007a9f80226d6bd9e105",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "catalog entry is unavailable; installed pin retained"
+  },
+  {
+    "name": "compartment",
+    "class": "catalog",
+    "current": "b144fc34723911eace9f240ac1044b9280b74bf2",
+    "latest": "b144fc34723911eace9f240ac1044b9280b74bf2",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "context-engineering",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "cronalytics",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "crypto-prices",
+    "class": "catalog",
+    "current": "69d34d7fa8d600f3c57b634c5cfdb8fdd2fe995a",
+    "latest": "69d34d7fa8d600f3c57b634c5cfdb8fdd2fe995a",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "document-reader",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "eagle-eye",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "fusion",
+    "class": "catalog",
+    "current": "edab6a6d17838d4d9a1525a2a7d3500c62694e17",
+    "latest": "edab6a6d17838d4d9a1525a2a7d3500c62694e17",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "gh-skills-builder",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "githermes",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "grill-tab",
+    "class": "catalog",
+    "current": "2630fe2c8f1eb4c2c3106e2ed21ef519852cc1a5",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "catalog entry is unavailable; installed pin retained"
+  },
+  {
+    "name": "ha-sidebar-navigator",
+    "class": "catalog",
+    "current": "e025217648f3688bdee3c846f43646b4dfec6143",
+    "latest": "e025217648f3688bdee3c846f43646b4dfec6143",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hades-coding-workflows",
+    "class": "catalog",
+    "current": "b68546d66fe684a49633a9174e44362eff77cbfc",
+    "latest": "b68546d66fe684a49633a9174e44362eff77cbfc",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "herdr-auto-reconcile",
+    "class": "catalog",
+    "current": "7a01878039c217f7b3a5500a3086dd62a077d100",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "catalog entry is unavailable; installed pin retained"
+  },
+  {
+    "name": "hermes-achievements",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "hermes-evolve",
+    "class": "catalog",
+    "current": "941c0b11a3afa18a88cd26ce1612c0e017525f42",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "catalog entry is unavailable; installed pin retained"
+  },
+  {
+    "name": "hermes-group-model-sync",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "hermes-ledgerline",
+    "class": "catalog",
+    "current": "9be4b850c874cebaa18b0077cdc5164b5e7b953b",
+    "latest": "f4d79d2de5411b31c440fc645b060f930c3c72de",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-loadout",
+    "class": "catalog",
+    "current": "e31ad580756a6481d38fac0b18ddc3fd0239d124",
+    "latest": "e31ad580756a6481d38fac0b18ddc3fd0239d124",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-memory-ui",
+    "class": "catalog",
+    "current": "9472bed7e20a51ac4f6c48f882bd9f80ea54d4ee",
+    "latest": "43da25d914f8281200ca3dc344435a42793441a4",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-office",
+    "class": "catalog",
+    "current": "e1e0255a48fe7a7549d8d0a5ef0747a41a0fb7e7",
+    "latest": "e1e0255a48fe7a7549d8d0a5ef0747a41a0fb7e7",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-payguard",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "hermes-resetwatch",
+    "class": "catalog",
+    "current": "1bb6ec08679abc228f218b0aaf59202e0c92b2db",
+    "latest": "d460334db633fbaa91f0f8b96679e8463bad2a04",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-ssh",
+    "class": "catalog",
+    "current": "02c6b34ee604a30827df25a082cba03fbf6fdf17",
+    "latest": "02c6b34ee604a30827df25a082cba03fbf6fdf17",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-structured-aux-models",
+    "class": "catalog",
+    "current": "e5c49b081ad04adca2ee3edc601b09ede6cee4c5",
+    "latest": "e5c49b081ad04adca2ee3edc601b09ede6cee4c5",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-tailscale",
+    "class": "catalog",
+    "current": "6dad1d5aac443a196f7ba83736a1f4c9e3a75048",
+    "latest": "7a0b5ab13ec7bd97bebdbfb638acfb5c40ad1f06",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hermes-terminal",
+    "class": "catalog",
+    "current": "43658bf3c883178bf035d2163f7f541500d17407",
+    "latest": "4decbf0585af9d12071e0bfddcad9a1d1540c98a",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "hindsight",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "homeassistant",
+    "class": "catalog",
+    "current": "ba30cb0cf86c52bdb5cde98974bc062e97966529",
+    "latest": "ba30cb0cf86c52bdb5cde98974bc062e97966529",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "honcho",
+    "class": "catalog",
+    "current": "3dd3b7ad17e1d0475d78f0010f9a2b6386dfeaec",
+    "latest": "3dd3b7ad17e1d0475d78f0010f9a2b6386dfeaec",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "infisical",
+    "class": "catalog",
+    "current": "d1c5d46267bcc05f1ee2ae68e06f0ba3072d656a",
+    "latest": "d1c5d46267bcc05f1ee2ae68e06f0ba3072d656a",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "intelligent_memory",
+    "class": "catalog",
+    "current": "2d15ce5ba5878ddd7e18ca8cb1f0c62311965da0",
+    "latest": "2d15ce5ba5878ddd7e18ca8cb1f0c62311965da0",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "iteration-budget-meter",
+    "class": "catalog",
+    "current": "bfe740a87342cce7872d57d073ac2433bf9781c3",
+    "latest": "953732a9fb52b6fd89e73fc96d910aab63163e07",
+    "update_available": true,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "jev-agent-router",
+    "class": "catalog",
+    "current": "8cb6d67a81d4545502750c4599b427d98acf3120",
+    "latest": "8cb6d67a81d4545502750c4599b427d98acf3120",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "jev-mcp-router",
+    "class": "catalog",
+    "current": "6a7b3baf45af62def86c3d824b06c85569d14298",
+    "latest": "6a7b3baf45af62def86c3d824b06c85569d14298",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "jev-memory-selector",
+    "class": "catalog",
+    "current": "87bd9be2a67d380024be194e6d80a1a053024361",
+    "latest": "87bd9be2a67d380024be194e6d80a1a053024361",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "jev-model-router",
+    "class": "catalog",
+    "current": "b977dc3ef07738aab005c433d08c1da3fa949e8d",
+    "latest": "b977dc3ef07738aab005c433d08c1da3fa949e8d",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "job-search",
+    "class": "catalog",
+    "current": "dba0c0992e9d7fc6533dd1be3003df7a311168f0",
+    "latest": "dba0c0992e9d7fc6533dd1be3003df7a311168f0",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "junie-acp",
+    "class": "catalog",
+    "current": "296ea839b354956fbd22544687a88b944c18dc22",
+    "latest": "296ea839b354956fbd22544687a88b944c18dc22",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "kiro-provider",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "kiwi",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "markifact",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "mem-os",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "memory-review",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "memory-wiki",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "mindstudio-agent",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "my-github",
+    "class": "catalog",
+    "current": "21f78065692294de9d52bccb8c4939fe51588b68",
+    "latest": "21f78065692294de9d52bccb8c4939fe51588b68",
+    "update_available": false,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": ""
+  },
+  {
+    "name": "nous-prices",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "obsidian-memory",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "oc-free-provider",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "oh-my-hermes",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "omnivoice",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "opaque-composer",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "opencode",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "parallel-search",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "project-planning",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "prompt-enhance",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "prompt-enhancer",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "prompt-snippets",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "provider-copy",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "provider-status",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "pstack",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "rate-limit-bypass",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "reasoning-switch",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "reme",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "session-dashboard",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "session-ref",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "session-styler",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "snyk",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "sticky-notes",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "subagent-viewer",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "subscription-meter",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "supermemory",
+    "class": "self-cloned",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "self-cloned; run `hermes plugins adopt` first"
+  },
+  {
+    "name": "superpowers",
+    "class": "manual",
+    "current": null,
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "no provenance; not auto-updatable"
+  },
+  {
+    "name": "omnivoice",
+    "class": "pip",
+    "current": "0.1.0",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "unknown (not on PyPI)"
+  },
+  {
+    "name": "hermes-payguard",
+    "class": "pip",
+    "current": "0.1.0",
+    "latest": null,
+    "update_available": null,
+    "needs_fixing": null,
+    "min_hermes": null,
+    "reason": "unknown (not on PyPI)"
+  }
+]

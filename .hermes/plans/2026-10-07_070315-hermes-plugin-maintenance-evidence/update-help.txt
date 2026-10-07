@@ -1,0 +1,10 @@
+usage: hermes plugins update [-h] [--allow-live-gateway] name
+
+positional arguments:
+  name                  Plugin name to update
+
+options:
+  -h, --help            show this help message and exit
+  --allow-live-gateway  DANGEROUS: update while the messaging gateway is
+                        running (loaded plugin callbacks may break until it
+                        restarts)
