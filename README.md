@@ -57,31 +57,29 @@ Resume_maker/
 cd Resume_maker
 bun install
 
-# Generate documents from sample input
-bun index.ts --input sample-input.json
+# Generate documents from sample input (--skipProjects for deterministic output)
+bun index.ts --input sample-input.json --skipProjects
 
-# Generate with specific options
-bun index.ts -i alexander-input.json -o resume -f both
+# Generate with specific options (Markdown only — PDF is broken, see Extension Notes)
+bun index.ts -i alexander-input.json -o resume -f markdown
 
-# Run quality checks
-bun run typecheck && bun run lint
-bun run lint:md       # Markdown linting
-bun run lint:spell    # Spell checking
+# Run quality checks (CI runs the first two; lint:md/lint:spell are local-only)
+bun run typecheck && bun run lint && bun run lint:md && bun run lint:spell
 ```
 
 ## CLI Commands
 
-| Command                                    | Description                 |
-| ------------------------------------------ | --------------------------- | ----- | ------------- |
-| `bun index.ts --input <file.json>`         | Generate from JSON input    |
-| `bun index.ts -i <file> -o <name> -f <both | md                          | pdf>` | Output config |
-| `bun index.ts --skipProjects`              | Skip project auto-discovery |
-| `bun index.ts -p <dir>`                    | Projects directory          |
-| `bun index.ts --help`                      | Display CLI help            |
-| `bun run typecheck`                        | TypeScript type checking    |
-| `bun run lint`                             | ESLint + Prettier check     |
-| `bun run lint:md`                          | Markdown linting            |
-| `bun run lint:spell`                       | Spell checking              |
+| Command                                            | Description                 |
+| -------------------------------------------------- | --------------------------- |
+| `bun index.ts --input <file.json>`                 | Generate from JSON input    |
+| `bun index.ts -i <f> -o <name> -f <md\|pdf\|both>` | Output config               |
+| `bun index.ts --skipProjects`                      | Skip project auto-discovery |
+| `bun index.ts -p <dir>`                            | Projects directory          |
+| `bun index.ts --help`                              | Display CLI help            |
+| `bun run typecheck`                                | TypeScript type checking    |
+| `bun run lint`                                     | ESLint + Prettier check     |
+| `bun run lint:md`                                  | Markdown linting            |
+| `bun run lint:spell`                               | Spell checking              |
 
 ### CLI Options
 
